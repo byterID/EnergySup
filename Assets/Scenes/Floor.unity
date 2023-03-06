@@ -166,7 +166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1808}
+  m_AnchoredPosition: {x: 0, y: -2142}
   m_SizeDelta: {x: 0, y: -563.473}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &74995981
@@ -503,10 +503,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8917322a818039145bd3fa1cb32af2f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tower: {fileID: 919132149155446097, guid: f9e819517f421e1498bbafa3486e8bc9, type: 3}
-  Transformator: {fileID: 919132149155446097, guid: 0642d6173ba58c745ab4788f06605ae5, type: 3}
-  PowerTransformator: {fileID: 919132149155446097, guid: 92672c8ceec1edd448f1a07ee8edac9f, type: 3}
-  Stolb: {fileID: 919132149155446097, guid: 417b65677c68dfb48a339bba58fff2ca, type: 3}
+  Tower: {fileID: 6873209616122401012, guid: 96b8aabc0b480b846a0cc0b66afed653, type: 3}
+  Transformator: {fileID: 2860381671490183625, guid: bee41554d2df10f42a5cfd64d243aac7, type: 3}
+  PowerTransformator: {fileID: 456872784685749610, guid: dcd9fc0fc6682424d858d4026f5ac7d0, type: 3}
+  Stolb: {fileID: 7484795892330664944, guid: 0babd553eef5d08498d74c0171014184, type: 3}
   AR: {fileID: 719639594}
 --- !u!114 &555945860
 MonoBehaviour:
@@ -1729,13 +1729,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 555945859}
+        m_TargetAssemblyTypeName: SwitchPlacedObject, Assembly-CSharp
+        m_MethodName: SetStolb
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1863,13 +1863,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 555945859}
+        m_TargetAssemblyTypeName: SwitchPlacedObject, Assembly-CSharp
+        m_MethodName: SetPowerTransfomator
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

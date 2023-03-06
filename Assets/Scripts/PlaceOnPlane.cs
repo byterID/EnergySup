@@ -9,7 +9,7 @@ public class PlaceOnPlane : MonoBehaviour
 {
     [SerializeField]
     [Tooltip("Instantiates this prefab on a plane at the touch location.")]
-    GameObject m_PlacedPrefab;
+    public GameObject m_PlacedPrefab;
 
     UnityEvent placementUpdate;
 
@@ -47,7 +47,7 @@ public class PlaceOnPlane : MonoBehaviour
         return false;
     }
 
-    void Update()//ждет пока юзер тыкнет пальцем на созданную плоскость
+    public void Update()//ждет пока юзер тыкнет пальцем на созданную плоскость
     {
         if (!TryGetTouchPosition(out Vector2 touchPosition))
             return;

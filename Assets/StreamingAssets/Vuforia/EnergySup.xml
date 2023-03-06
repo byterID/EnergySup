@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="shitok" size="1745.000000 2382.079834" />
-    <ImageTarget name="Shitok2" size="1745.000000 2066.128418" />
-    <ImageTarget name="Uzm" size="600.000000 600.000000" />
-    <ImageTarget name="avtomatDif" size="394.000000 631.000000" />
-    <ImageTarget name="avtomat" size="810.000000 925.000000" />
+    <ImageTarget name="SHITok3" size="600.000000 800.000000" />
   </Tracking>
 </QCARConfig>
